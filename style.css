@@ -580,3 +580,29 @@ footer p {
 /***********************************************************************************************
   Actual Document Styling End
 ***********************************************************************************************/
+
+/* في ملف styles.css الخاص بك */
+.works-container {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.work-card {
+  text-align: center;
+  padding: 3rem;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgb(255, 255, 255);
+  width: 300px;
+}
+
+.work-card a {
+  display: inline-block;
+  background-color: var(--white);
+  color: #071ff1;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
